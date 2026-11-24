@@ -14,7 +14,7 @@ public class User {
     public User(String fullName, String email,
                 String passwordHashString, String phoneNumber, String telegramTag) {
         
-        this.id = UUID.randomUUID().toString()
+        this.id = UUID.randomUUID().toString();
         setFullName(fullName);
         setEmail(email);
         setPasswordHashString(passwordHashString);
