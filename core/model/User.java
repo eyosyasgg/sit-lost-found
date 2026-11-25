@@ -21,7 +21,25 @@ public class User {
         setPhoneNumber(phoneNumber);
         setTelegramTag(telegramTag);
     }
+//Added to complete the staff.java
+    public User(String id, String fullName, String email,
+            String passwordHashString, String phoneNumber, String telegramTag) {
 
+    if (id == null || id.isBlank()) {
+        throw new IllegalArgumentException("User ID is required.");
+    }
+
+    this.id = id;
+    setFullName(fullName);
+    setEmail(email);
+    setPasswordHashString(passwordHashString);
+    setPhoneNumber(phoneNumber);
+    setTelegramTag(telegramTag);
+}
+//Added to complete the staff.java
+public String getDisplayBadge() {
+    return "User";
+}
     public String getId() {
         return id;
     }
