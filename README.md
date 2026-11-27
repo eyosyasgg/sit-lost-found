@@ -98,7 +98,7 @@ Open the project in your IDE, add the JavaFX SDK to the project libraries, and c
 | Eman Ahmed Suliman | SIT-ST-2029-00031 | `Student.java`: student accounts and dorm details |
 | Natnael Dessalegn Eba | SIT-ST-2029-00091 | `Staff.java`: staff accounts and retrieval approval rights |
 | Elias Mengie Nigatie | SIT-ST-2029-00045 | `LostItem.java` and `FoundItem.java`: lost and found item types |
-| Eyosyas Guush Gebreweld | SIT-ST-2029-00123 | |
+| Eyosyas Guush Gebreweld | SIT-ST-2029-00123 | | 
 
 ## Course
 
